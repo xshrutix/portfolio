@@ -1,7 +1,7 @@
 import React from 'react'
 import "react-step-progress-bar/styles.css";
 import { ProgressBar, Step } from "react-step-progress-bar";
-import { Box, Typography ,CardActions , Button } from '@material-ui/core'
+import { Box, Typography, CardActions, Button } from '@material-ui/core'
 import img from '../images/go.png'
 import './Skills.css'
 import SkillBar from 'react-skillbars'
@@ -9,51 +9,67 @@ import SkillBar from 'react-skillbars'
 const Skills = () => {
     const skills = [
         {
-            type: 'JAVA', level: 77,
+            type: 'ReactJs', level: 85, color: {
+                bar: "#E07451",
+                title: { background: '#FFC594', text: "#fff" }
+            }
+        },
+        {
+            type: 'JavaScript', level: 78, color: {
+                bar: "#E07451",
+                title: { background: '#FFC594', text: "#fff" }
+            }
+        },
+        {
+            type: 'JAVA', level: 70,
             color: {
                 bar: "#E07451",
                 title: { background: '#FFC594', text: "#fff" }
             }
         },
-  { type: 'JavaScript', level: 78 ,  color: {
+        {
+            type: 'TypeScript', level: 60, color: {
                 bar: "#E07451",
                 title: { background: '#FFC594', text: "#fff" }
-            } },
-  { type: 'ReactJs', level: 75 ,  color: {
-                bar: "#E07451",
-                title: { background: '#FFC594', text: "#fff" }
-            } },
-  { type: 'CSS', level: 72 ,  color: {
-                bar: "#E07451",
-                title: { background: '#FFC594', text: "#fff" }
-            } },
-  { type: 'Node.Js', level: 55 , color: {
-                bar: "#E07451",
-                title: { background: '#FFC594', text: "#fff" }
-            } },
-  { type: 'HTML', level: 95 ,  color: {
-                bar: "#E07451",
-                title: { background: '#FFC594', text: "#fff" }
-        }
+            }
         },
-  {
-            type: 'SQL', level: 60,
+
+        {
+            type: 'CSS', level: 72, color: {
+                bar: "#E07451",
+                title: { background: '#FFC594', text: "#fff" }
+            }
+        },
+        {
+            type: 'Node.Js', level: 55, color: {
+                bar: "#E07451",
+                title: { background: '#FFC594', text: "#fff" }
+            }
+        },
+        {
+            type: 'HTML', level: 95, color: {
+                bar: "#E07451",
+                title: { background: '#FFC594', text: "#fff" }
+            }
+        },
+        {
+            type: 'NoSQL', level: 60,
             color: {
                 bar: "#E07451",
                 title: { background: '#FFC594', text: "#fff" }
             }
         },
-];
-  return (
-    <Box className=" flex justify-self-auto mt-32  bg-orange-400">
-      <Box className="column-sm w-screen bg-gradient-to-r from-orange-100 via-orange-300 to-orange-400 ... ">
-        <Typography className="underline decoration-double decoration-black hover:underline   text-center font-mono hover:font-serif  text-3xl antialiased hover:subpixel-antialiased font-semibold ...">
-          Skills
-        </Typography>
-              {/* <Box className="mx-8 mt-12 mb-12 md:flex justify-center  "> */}
-              <Box className='mt-6'>
-                <SkillBar  skills={skills} animationDelay={1000} />  
-            {/* <div className='row'>    
+    ];
+    return (
+        <Box className=" flex justify-self-auto mt-32  bg-orange-400">
+            <Box className="column-sm w-screen bg-gradient-to-r from-orange-100 via-orange-300 to-orange-400 ... ">
+                <Typography className="underline decoration-double decoration-black hover:underline   text-center font-mono hover:font-serif  text-3xl antialiased hover:subpixel-antialiased font-semibold ...">
+                    Skills
+                </Typography>
+                {/* <Box className="mx-8 mt-12 mb-12 md:flex justify-center  "> */}
+                <Box className='mt-6'>
+                    <SkillBar skills={skills} animationDelay={1000} />
+                    {/* <div className='row'>    
             <div className="col-sm skills">
                 <div className="details">
                     <span>HTML</span>
@@ -92,13 +108,13 @@ const Skills = () => {
             </div>
            </div>  
                    */}
-                  {/* </Box> */}
-              </Box>
-             
-      </Box>
-    </Box>
-    
-  )
+                    {/* </Box> */}
+                </Box>
+
+            </Box>
+        </Box>
+
+    )
 }
 
 export default Skills
