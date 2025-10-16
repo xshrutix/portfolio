@@ -1,14 +1,15 @@
 import React from 'react'
 import './Projects.css'
-import little from '../images/littlepaws.png'
-import cal from '../images/cal.png'
+
+
 import cine from '../images/Screenshot (159).png'
-import opt from '../images/opt.png'
-import hotel from '../images/hotel.png'
-import events from '../images/events.png'
+
+
+import dojiwa from '../images/dojiwa.png'
+import wizsuite from '../images/wizsuite.png'
+import gdoc from '../images/gdoc.png'
 import vsmtech from '../images/vmstech.png'
 import scheduler from '../images/scheduler.png'
-import splitwise from '../images/splitwise.png'
 import { Button, CardActions } from '@material-ui/core'
 
 const Projects = () => {
@@ -19,33 +20,38 @@ const Projects = () => {
         <div className="bg-orange-300 text-black flexcard flexcardOrange mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...">
           <div className=" flexcardNumber flexcardNumberOrange">01</div>
           <div className="flex flexcardTitle">VMS Tech</div>
-          <div className="flex flexcardText">Professional Company with all required pages and components.</div>
+          <div className="flex flexcardText">Designed and developed the official website for VMS Tech, focusing on a modern, responsive user experience that clearly communicates the company’s mission, services, and technology expertise.</div>
           <div className=" flex flexcardImg mt-4  transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-110 hover: duration-300 ..."><img className=" flexcardimgItem"
             src={vsmtech} alt="" /></div>
-          <div className='flex justify-evenly aling-bottom '><CardActions className='float-left aling-basline-0'>
-            <a href='#'>
-              <Button size="small" >Code</Button>
-            </a>
-          </CardActions>
+          <div className='flex justify-evenly aling-bottom '>
             <CardActions className='float-right'>
-              <a href='https://main--vms-try.netlify.app/'>
+              <a href='https://vmstechs.com/'>
                 <Button size="small" >Demo</Button>
               </a>
             </CardActions></div>
         </div>
         <div className="bg-orange-300 text-black flexcard flexcardOrange mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...">
           <div className=" flexcardNumber flexcardNumberOrange">02</div>
-          <div className="flex flexcardTitle">VMS Events</div>
-          <div className="flex flexcardText">Professional Company events page showing about events and its description.</div>
+          <div className="flex flexcardTitle">Dojiwa</div>
+          <div className="flex flexcardText">Dojiwa is an innovative platform that merges advanced AI with creative vision to transform how content is produced and experienced globally. It enables seamless lip-syncing across languages, natural-sounding voice generation, real-time translation, and highly realistic face transformations.</div>
           <div className=" flex flexcardImg mt-4  transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-110 hover: duration-300 ..."><img className=" flexcardimgItem"
-            src={events} alt="" /></div>
-          <div className='flex justify-evenly aling-bottom '><CardActions className='float-left aling-basline-0'>
-            <a href='#'>
-              <Button size="small" >Code</Button>
-            </a>
-          </CardActions>
+            src={dojiwa} alt="" /></div>
+          <div className='flex justify-evenly aling-bottom '>
             <CardActions className='float-right'>
-              <a href='https://xaapps.com/testvms_event/'>
+              <a href='https://dojiwa.com/'>
+                <Button size="small" >Demo</Button>
+              </a>
+            </CardActions></div>
+        </div>
+         <div className="bg-orange-300 text-black flexcard flexcardGreen mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...">
+          <div className="flexcardNumber flexcardNumberGreen">06</div>
+          <div className="flex flexcardTitle">Wizsuite</div>
+          <div className="flex flexcardText">WiZSuite is a cutting-edge HR automation platform designed for the modern workplace. It combines enterprise-level security, seamless scalability, and smart integration to streamline workflows and enhance productivity. </div>
+          <div className="flex flexcardImg mt-4 transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-110 hover: duration-300 ..."><img className="flexcardimgItem"
+            src={wizsuite} alt="" /></div>
+          <div className='flex justify-evenly aling-bottom'>
+            <CardActions className='float-right'>
+              <a href='https://wizsuite.com/'>
                 <Button size="small" >Demo</Button>
               </a>
             </CardActions></div>
@@ -57,15 +63,11 @@ const Projects = () => {
           <div className=" flex flexcardImg mt-4  transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-110 hover: duration-300 ..."><img className=" flexcardimgItem"
             src={cine} alt="" /></div>
           <div className='flex justify-evenly aling-bottom '><CardActions className='float-left aling-basline-0'>
-            <a href='https://github.com/xshrutix/CineMad-frontend'>
+            <a href='https://github.com/xshrutix/CineMad.git'>
               <Button size="small" >Code</Button>
             </a>
           </CardActions>
-            <CardActions className='float-right'>
-              <a href='https://github.com/xshrutix/CineMad-frontend'>
-                <Button size="small" >Demo</Button>
-              </a>
-            </CardActions></div>
+            </div>
         </div>
         <div className="bg-orange-300 text-black flexcard flexcardOrange mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...">
           <div className=" flexcardNumber flexcardNumberOrange">04</div>
@@ -74,53 +76,28 @@ const Projects = () => {
           <div className=" flex flexcardImg mt-4  transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-110 hover: duration-300 ..."><img className=" flexcardimgItem"
             src={scheduler} alt="" /></div>
           <div className='flex justify-evenly aling-bottom '><CardActions className='float-left aling-basline-0'>
-            <a href='#'>
+            <a href='https://github.com/xshrutix/Scheduler.git'>
               <Button size="small" >Code</Button>
             </a>
           </CardActions>
-            <CardActions className='float-right'>
-              <a href='https://scheduler-ptu.netlify.app/'>
-                <Button size="small" >Demo</Button>
-              </a>
-            </CardActions></div>
+           </div>
         </div>
         <div className="bg-orange-300 text-black flexcard flexcardOrange mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...">
           <div className=" flexcardNumber flexcardNumberOrange">05</div>
-          <div className="flex flexcardTitle">SplitWise</div>
-          <div className="flex flexcardText">SplitMate is a convenient and user-friendly expense splitting webapp that simplifies the process of sharing costs among friends, roommates, or colleagues.</div>
+          <div className="flex flexcardTitle">Google Docs Clone</div>
+          <div className="flex flexcardText">Developed a web-based collaborative text editor replicating Google Docs functionality. Implemented real-time text editing, rich-text formatting, toolbar tools (undo/redo, lists, Bold, Italics, colors), and responsive design using React.js and Tailwind CSS.</div>
           <div className=" flex flexcardImg mt-4  transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-110 hover: duration-300 ..."><img className=" flexcardimgItem"
-            src={splitwise} alt="" /></div>
+            src={gdoc} alt="" /></div>
           <div className='flex justify-evenly aling-bottom '><CardActions className='float-left aling-basline-0'>
-            <a href='https://github.com/xshrutix/splitwise'>
+            <a href='https://github.com/xshrutix/google-doc.git'>
               <Button size="small" >Code</Button>
             </a>
           </CardActions>
-            <CardActions className='float-right'>
-              <a href='#'>
-                <Button size="small" >Demo</Button>
-              </a>
-            </CardActions></div>
+           </div>
         </div>
 
 
-        <div className="bg-orange-300 text-black flexcard flexcardGreen mt-4 transition ease-in-out delay-150  hover:-translate-y-1 hover:scale-110 hover: duration-300 ...">
-          <div className="flexcardNumber flexcardNumberGreen">06</div>
-          <div className="flex flexcardTitle">Little Paws</div>
-          <div className="flex flexcardText">It is a NGO based website aim with helping injured street animals.
-            It is developed with using HTML, CSS, Javascript(DOM), along with JQuery and Bootstrap framework. </div>
-          <div className="flex flexcardImg mt-4 transition ease-in-out delay-150   hover:-translate-y-1 hover:scale-110 hover: duration-300 ..."><img className="flexcardimgItem"
-            src={little} alt="" /></div>
-          <div className='flex justify-evenly aling-bottom'><CardActions className='float-left'>
-            <a href='/'>
-              <Button size="small" >Code</Button>
-            </a>
-          </CardActions>
-            <CardActions className='float-right'>
-              <a href='/'>
-                <Button size="small" >Demo</Button>
-              </a>
-            </CardActions></div>
-        </div>
+       
 
       </div>
       <p id='skills'></p>
