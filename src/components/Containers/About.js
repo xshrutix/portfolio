@@ -29,17 +29,16 @@ const About = () => {
           <Typography variant="body2" color="text.secondary" className='flex justify-center  text-slate-900  bg-gradient-to-r from-orange-100 via-orange-300 to-orange-400 ...'>
             <List>
               
-              <ListItem><AutoStoriesIcon sx={{color:'black' , mr: 2}}  />Greetings! I'm Shruti Sharma, currently immersed in the world of Computer Science & Engineering at I.K. Gujral Punjab Technical University
-                Jalandhar, Punjab, India.</ListItem>
-              <ListItem><AssignmentTurnedInIcon sx={{color:'black' , mr: 2}} />As a Frontend Developer, my expertise lies in the realm of frontend technologies, specifically in crafting seamless experiences with React.js, Tailwind CSS, and the nuances of Modern CSS. I bring not only technical proficiency but also a keen eye for UI/UX design.</ListItem>
-              <ListItem><LanguageIcon sx={{color:'black' , mr: 2}} />I am proficient in frontend technologies including React.js, Tailwind CSS, material UI, jQuery and Modern CSS, complemented by strong UI/UX design skills.
+              <ListItem><AutoStoriesIcon sx={{color:'black' , mr: 2}}  />Greetings! I'm Shruti Sharma, a 2024 Computer Science and Engineering graduate from 
+             I.K. Gujral Punjab Technical University, Jalandhar, Punjab. </ListItem>
+              <ListItem><AssignmentTurnedInIcon sx={{color:'black' , mr: 2}} />With hands-on experience in React.js, Tailwind CSS, and Django, I excel in building robust, user-focused applications backed by clean, scalable architectures. My goal is to bridge the gap between data-driven analysis and intuitive user experience through well-crafted digital solutions.</ListItem>
+              <ListItem><LanguageIcon sx={{color:'black' , mr: 2}} />As a Business Analyst Intern at Virinchi Development Services, I analyzed large-scale health datasets to uncover key trends, streamlined data collection through automation, and collaborated with diverse teams to deliver actionable insights that shaped healthcare program strategies.
 
 </ListItem>
-              <ListItem><FavoriteIcon sx={{color:'black' , mr: 2}} />One of my key strengths lies in problem-solving, and I take immense pleasure in tackling intricate reasoning problems. This passion drives me to continually seek new challenges, both in academia and the professional sphere.  </ListItem>
+              <ListItem><FavoriteIcon sx={{color:'black' , mr: 2}} /> I designed and developed dynamic visual dashboards to communicate complex data insights effectively to stakeholders, ensuring data-driven decision-making and improved operational efficiency across multiple regions.  </ListItem>
               <ListItem><TravelExploreIcon sx={{color:'black' , mr: 2}} />
-Proficient in the principles of Object-Oriented Programming (OOP) and well-versed in data structures, I wield a strong command over these concepts within the Java programming language. My expertise extends to effectively applying these principles in real-world scenarios, contributing to robust and scalable software solutions.  </ListItem>
-              <ListItem><PaletteIcon sx={{color:'black' , mr: 2}} />
-Additionally, I have hands-on experience in spearheading a full-stack project using Node.js. Equipped with a comprehensive skill set, I am poised to transition into a versatile full-stack developer role. My proficiency spans both front-end and back-end technologies, positioning me as a valuable asset in the dynamic landscape of web development. </ListItem>
+Proficient in the principles of Object-Oriented Programming (OOP) and well-versed in data structures, I wield a strong command over these concepts within the Python programming language. My expertise extends to effectively applying these principles in real-world scenarios, contributing to robust and scalable software solutions.  </ListItem>
+              <ListItem><PaletteIcon sx={{color:'black' , mr: 2}} />Driven by curiosity and a commitment to continuous learning, I aim to evolve as a versatile professional — combining analytical precision with full-stack development expertise to build impactful, data-informed web solutions that enhance user experience and business outcomes. </ListItem>
               
             </List>
 

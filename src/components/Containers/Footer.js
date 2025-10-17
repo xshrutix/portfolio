@@ -28,12 +28,7 @@ const Footer = () => {
           <span><i className="fab fa-twitter"></i></span>
         </li>
       </a>
-      <a href="https://codepen.io/xshrutix"  rel="noreferrer" target="_blank">
-        <li className="icon github">
-          <span className="tooltip">CodePen</span>
-          <span><i className="fab fa-codepen"></i></span>
-        </li>
-      </a>
+      
     </ul>
   </div>
   <div className="final_text"></div>

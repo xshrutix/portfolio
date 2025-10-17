@@ -9,7 +9,7 @@ import SkillBar from 'react-skillbars'
 const Skills = () => {
     const skills = [
         {
-            type: 'ReactJs', level: 85, color: {
+            type: 'MySQL', level: 85, color: {
                 bar: "#E07451",
                 title: { background: '#FFC594', text: "#fff" }
             }
@@ -21,14 +21,14 @@ const Skills = () => {
             }
         },
         {
-            type: 'JAVA', level: 70,
+            type: 'React js', level: 70,
             color: {
                 bar: "#E07451",
                 title: { background: '#FFC594', text: "#fff" }
             }
         },
         {
-            type: 'TypeScript', level: 60, color: {
+            type: 'Python', level: 60, color: {
                 bar: "#E07451",
                 title: { background: '#FFC594', text: "#fff" }
             }
@@ -41,7 +41,7 @@ const Skills = () => {
             }
         },
         {
-            type: 'Node.Js', level: 55, color: {
+            type: 'Django', level: 55, color: {
                 bar: "#E07451",
                 title: { background: '#FFC594', text: "#fff" }
             }
